@@ -1,3 +1,4 @@
+---
 name: ALZ GitHub Actions deployment pipeline
 
 on: [workflow_dispatch]
