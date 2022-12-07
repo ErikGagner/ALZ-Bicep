@@ -1,4 +1,4 @@
-name: EG ALZ GitHub Actions deployment pipeline
+name: ALZ GitHub Actions deployment pipeline
 
 on: [workflow_dispatch]
 
@@ -163,3 +163,4 @@ jobs:
       #     parameters: infra-as-code/bicep/modules/spokeNetworking/parameters/spokeNetworking.parameters.all.json
       #     deploymentName: create_spoke_network-${{ env.runNumber }}
       #     failOnStdErr: false
+
